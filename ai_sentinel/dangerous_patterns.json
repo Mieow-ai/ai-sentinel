@@ -1,0 +1,41 @@
+{
+  "prompt_injection": [
+    "ignore.*\\b(previous|instructions|rules)\\b",
+    "disregard.*instructions",
+    "forget.*(everything|all).*before",
+    "reset.*persona",
+    "act as .*system"
+  ],
+  "bypass": [
+    "i\\s*g\\s*n\\s*o\\s*r\\s*e",
+    "jailbreak",
+    "unrestricted mode",
+    "developer mode",
+    "break.*free",
+    "bypass"
+  ],
+  "extraction": [
+    "show.*system.*(code|instruction|prompt)",
+    "reveal.*prompt",
+    "display.*system.*instruction",
+    "print.*(source|config|instruction)"
+  ],
+  "execution_attempt": [
+    "execute command",
+    "run this code",
+    "shell command"
+  ],
+  "social_engineering": [
+    "pretend to be a human",
+    "ignore safety guidelines",
+    "this is safe",
+    "trust me"
+  ],
+  "dangerous_content": [
+    "make.*(weapon|bomb|explosive)",
+    "hack.*into",
+    "bypass.*authentication",
+    "illegal access"
+  ]
+}
+

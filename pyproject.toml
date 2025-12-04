@@ -1,22 +1,18 @@
-```toml
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
-
 name = "ai-sentinel"
 version = "0.1.0"
-description = "Bibliothèque de sécurité pour l'IA (détection de prompt injection, audit de risques)"
+description = "A Python library as a tool for monitoring and managing AI systems."
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-keywords = ["ai", "security", "prompt injection", "audit"]
 
 authors = [
-  { name="Mieow-ai", email="simon.corvoysier@gmail.com" }
+  { name = "Mieow-ai", email = "simon.corvoysier@gmail.com" }
 ]
-
-[build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"
 
 [project.urls]
 Homepage = "https://github.com/Mieow-ai/ai-sentinel"
